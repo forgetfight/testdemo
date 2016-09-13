@@ -10,79 +10,7 @@
         <script src='js/jquery-1.12.4.js'></script>
         <script src='bootstrap/dist/js/bootstrap.js'></script>
         <script src='js/index.js'></script>
-        <style>
-        body{
-        	margin: 0;
-        	padding: 0;
-        	font-family: 'microsoft yahei';
-        }
 
-        /* .container{
-        	width: 1100px;
-        } */
-			.wrap .pull-right input{
-				margin-top: 25px;
-				margin-bottom: 10px;
-					width: 200px;
-					height: 30px;
-					border-radius: 6px;
-					padding-left: 10px;
-			}
-
-			.wrap .pull-right font{
-				font-size: 18px;
-			}
-
-			.navdemo{
-				background-color: #B31E22;
-				height: 32px;
-				margin-top: 10px;
-			}
-			.navdemo>div>div{
-				float: left;
-				list-style: none;
-				text-align: center;
-
-
-			}
-
-			.navdemo>div>div>a{
-				color: #fff;
-				line-height:32px;
-				text-decoration: none;
-				
-				display: inline-block;
-			}
-
-			.navdemo>div>div:hover{
-				/* line-height: 35px; */
-				/* background-color: #ccc; */
-				background: url(images/hover_bg.jpg) no-repeat;
-				/* color: #000; */
-				/* padding: 0 30px 0 30px; */
-			}
-			.navdemo>div>div:hover a{
-				color: #000;
-			}
-			.navdemo>div{
-				padding-left: 10%;
-				padding-right: 10%;
-			}
-
-			.content{
-				margin-top: 10px;
-			}
-
-			.footer{
-				border-top: 10px solid #B31E22;
-				text-align: center;
-				padding-top: 10px;
-			}
-
-			 .footer{
-    	font-size: 10px;
-    }
-        </style>
     </head>
     <body>
 
@@ -125,38 +53,31 @@
     			 <section id="slide">
         		<!-- data-ride="carousel"代表是一个轮播图 -->
 			        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-			            <!-- 指示器就是下面的小圆点 -->
+			           
 			            <ol class="carousel-indicators">
-			                <!-- data-target控制的轮播图标签 data-slide-to 跳转到第几张图片 是从0开始 -->
+			           
 			                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 			                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
 			                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
 			                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
 			            </ol>
-			            <!-- 装所有轮播图的大盒子  role 角色 盒子的集合 就是轮播图每一项的集合-->
+			      
 			            <div class="carousel-inner" role="listbox">
-			                <!-- .item是指轮播图的每一项 -->
+			               
 			                <div class="item active" data-large-image="images/banner_1.jpg" data-small-image="images/smallban1.jpg">
-			                    <!-- <img src="img/slide_01_2000x410.jpg"> -->
-			                    <!-- carousel-caption 轮播图的标题 -->
-			                    <!--     <div class="carousel-caption">
-			                       标题1
-			                    </div> -->
+			             
 			                </div>
 			                <div class="item" data-large-image="images/banner_2.jpg" data-small-image="images/smallban2.jpg">
-			                    <!--  <img src="img/slide_02_2000x410.jpg"> -->
+			                   
 			                </div>
 			                <div class="item" data-large-image="images/banner_3.jpg" data-small-image="images/smallban3.jpg">
-			                    <!--  <img src="img/slide_03_2000x410.jpg"> -->
+			               
 			                </div>
 			                <div class="item" data-large-image="images/banner_4.jpg" data-small-image="images/smallban4.jpg">
-			                    <!--  <img src="img/slide_04_2000x410.jpg"> -->
+			               
 			                </div>
 			            </div>
-			            <!-- 控制器  是左右和右边的控制按钮 -->
-			            <!-- data-slide="prev"跳转到前一张 -->
-			            <!-- data-slide="next"跳转到下一张 -->
-			            <!-- href指的就是控制的轮播图盒子 -->
+
 			            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
 			                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 			                <span class="sr-only">Previous</span>

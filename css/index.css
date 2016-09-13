@@ -1,27 +1,92 @@
-#slide > .carousel > .carousel-inner > .item {
-    background-position: center center;
-}
-
-#slide > .carousel > .carousel-inner > .item > img {
-    width: 100%;
-}
-
-@media (min-width: 768px) {
-    #slide > .carousel > .carousel-inner > .item {
-        height: 280px;
-    }
-    .container{
-    	width: 1050px;
-    }
-
-   
-}
-
-
-#carousel-example-generic{
-	background-image: none;
-}
-
-div#carousel-example-generic.carousel.slide{
-	height: auto;
-}
+ body {
+     margin: 0;
+     padding: 0;
+     font-family: 'microsoft yahei';
+ }
+ /* .container{
+        	width: 1100px;
+        } */
+ 
+ .wrap .pull-right input {
+     margin-top: 25px;
+     margin-bottom: 10px;
+     width: 200px;
+     height: 30px;
+     border-radius: 6px;
+     padding-left: 10px;
+ }
+ 
+ .wrap .pull-right font {
+     font-size: 18px;
+ }
+ 
+ .navdemo {
+     background-color: #B31E22;
+     height: 32px;
+     margin-top: 10px;
+ }
+ 
+ .navdemo>div>div {
+     float: left;
+     list-style: none;
+     text-align: center;
+ }
+ 
+ .navdemo>div>div>a {
+     color: #fff;
+     line-height: 32px;
+     text-decoration: none;
+     display: inline-block;
+ }
+ 
+ .navdemo>div>div:hover {
+     background: url(images/hover_bg.jpg) no-repeat;
+ }
+ 
+ .navdemo>div>div:hover a {
+     color: #000;
+ }
+ 
+ .navdemo>div {
+     padding-left: 10%;
+     padding-right: 10%;
+ }
+ 
+ .content {
+     margin-top: 10px;
+ }
+ 
+ .footer {
+     border-top: 10px solid #B31E22;
+     text-align: center;
+     padding-top: 10px;
+ }
+ 
+ .footer {
+     font-size: 10px;
+ }
+ 
+ #slide > .carousel > .carousel-inner > .item {
+     background-position: center center;
+ }
+ 
+ #slide > .carousel > .carousel-inner > .item > img {
+     width: 100%;
+ }
+ 
+ @media (min-width: 768px) {
+     #slide > .carousel > .carousel-inner > .item {
+         height: 280px;
+     }
+     .container {
+         width: 1050px;
+     }
+ }
+ 
+ #carousel-example-generic {
+     background-image: none;
+ }
+ 
+ div#carousel-example-generic.carousel.slide {
+     height: auto;
+ }
