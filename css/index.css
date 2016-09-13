@@ -1,0 +1,27 @@
+#slide > .carousel > .carousel-inner > .item {
+    background-position: center center;
+}
+
+#slide > .carousel > .carousel-inner > .item > img {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    #slide > .carousel > .carousel-inner > .item {
+        height: 280px;
+    }
+    .container{
+    	width: 1050px;
+    }
+
+   
+}
+
+
+#carousel-example-generic{
+	background-image: none;
+}
+
+div#carousel-example-generic.carousel.slide{
+	height: auto;
+}
